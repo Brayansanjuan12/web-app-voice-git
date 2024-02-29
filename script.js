@@ -1,6 +1,7 @@
 const startButton = document.getElementById('startButton');
 const speechResult = document.getElementById('speechResult');
 
+//brayan perez san juan
 const recognition = new webkitSpeechRecognition() || new SpeechRecognition();
 recognition.lang = 'es-ES';
 
